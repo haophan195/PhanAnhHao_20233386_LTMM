@@ -1,4 +1,3 @@
-# DES và AES-128 (môn Lý thuyết mật mã)
 
 Cài đặt DES và AES-128 bằng Python 3 (không dùng thư viện mật mã), in giá trị trung gian
 của từng vòng để đối chiếu test vector.
