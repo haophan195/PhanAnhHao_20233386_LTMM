@@ -1,0 +1,199 @@
+AES-128  key=0x0000000000000000  plaintext=0x0000000000000011 (bai tap tuan 11)
+===============================================================================
+w[ 0] = 00000000
+w[ 1] = 00000000
+w[ 2] = 00000000
+w[ 3] = 00000000
+w[ 4] = 62636363
+w[ 5] = 62636363
+w[ 6] = 62636363
+w[ 7] = 62636363
+w[ 8] = 9b9898c9
+w[ 9] = f9fbfbaa
+w[10] = 9b9898c9
+w[11] = f9fbfbaa
+w[12] = 90973450
+w[13] = 696ccffa
+w[14] = f2f45733
+w[15] = 0b0fac99
+w[16] = ee06da7b
+w[17] = 876a1581
+w[18] = 759e42b2
+w[19] = 7e91ee2b
+w[20] = 7f2e2b88
+w[21] = f8443e09
+w[22] = 8dda7cbb
+w[23] = f34b9290
+w[24] = ec614b85
+w[25] = 1425758c
+w[26] = 99ff0937
+w[27] = 6ab49ba7
+w[28] = 21751787
+w[29] = 3550620b
+w[30] = acaf6b3c
+w[31] = c61bf09b
+w[32] = 0ef90333
+w[33] = 3ba96138
+w[34] = 97060a04
+w[35] = 511dfa9f
+w[36] = b1d4d8e2
+w[37] = 8a7db9da
+w[38] = 1d7bb3de
+w[39] = 4c664941
+w[40] = b4ef5bcb
+w[41] = 3e92e211
+w[42] = 23e951cf
+w[43] = 6f8f188e
+round key  0 = 00000000000000000000000000000000
+round key  1 = 62636363626363636263636362636363
+round key  2 = 9b9898c9f9fbfbaa9b9898c9f9fbfbaa
+round key  3 = 90973450696ccffaf2f457330b0fac99
+round key  4 = ee06da7b876a1581759e42b27e91ee2b
+round key  5 = 7f2e2b88f8443e098dda7cbbf34b9290
+round key  6 = ec614b851425758c99ff09376ab49ba7
+round key  7 = 217517873550620bacaf6b3cc61bf09b
+round key  8 = 0ef903333ba9613897060a04511dfa9f
+round key  9 = b1d4d8e28a7db9da1d7bb3de4c664941
+round key 10 = b4ef5bcb3e92e21123e951cf6f8f188e
+
+round[ 0].input    00000000000000000000000000000011
+round[ 0].k_sch    00000000000000000000000000000000
+round[ 1].start    00000000000000000000000000000011
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 11
+round[ 1].s_box    63636363636363636363636363636382
+round[ 1].s_row    63636382636363636363636363636363
+round[ 1].m_col    82825bba636363636363636363636363
+round[ 1].k_sch    62636363626363636263636362636363
+round[ 1].output   e0e138d9010000000100000001000000
+        e0 01 01 01
+        e1 00 00 00
+        38 00 00 00
+        d9 00 00 00
+round[ 2].start    e0e138d9010000000100000001000000
+        e0 01 01 01
+        e1 00 00 00
+        38 00 00 00
+        d9 00 00 00
+round[ 2].s_box    e1f807357c6363637c6363637c636363
+round[ 2].s_row    e16363637c6363357c6307637cf86363
+round[ 2].m_col    7ce1e1fe0b2a86ee39d0b426eb51e7d9
+round[ 2].k_sch    9b9898c9f9fbfbaa9b9898c9f9fbfbaa
+round[ 2].output   e7797937f2d17d44a2482cef12aa1c73
+        e7 f2 a2 12
+        79 d1 48 aa
+        79 7d 2c 1c
+        37 44 ef 73
+round[ 3].start    e7797937f2d17d44a2482cef12aa1c73
+        e7 f2 a2 12
+        79 d1 48 aa
+        79 7d 2c 1c
+        37 44 ef 73
+round[ 3].s_box    94b6b69a893eff1b3a5271dfc9ac9c8f
+round[ 3].s_row    943e718f89529c9a3aacb61bc9b6ffdf
+round[ 3].m_col    8ff4c2edf9084d6136a3cc62687be0ac
+round[ 3].k_sch    90973450696ccffaf2f457330b0fac99
+round[ 3].output   1f63f6bd9064829bc4579b5163744c35
+        1f 90 c4 63
+        63 64 57 74
+        f6 82 9b 4c
+        bd 9b 51 35
+round[ 4].start    1f63f6bd9064829bc4579b5163744c35
+        1f 90 c4 63
+        63 64 57 74
+        f6 82 9b 4c
+        bd 9b 51 35
+round[ 4].s_box    c0fb427a604313141c5b14d1fb922996
+round[ 4].s_row    c0431496605b297a1c924214fbfb13d1
+round[ 4].m_col    dcec0a3b7ed7e726c3f136dc39f24e47
+round[ 4].k_sch    ee06da7b876a1581759e42b27e91ee2b
+round[ 4].output   32ead040f9bdf2a7b66f746e4763a06c
+        32 f9 b6 47
+        ea bd 6f 63
+        d0 f2 74 a0
+        40 a7 6e 6c
+round[ 5].start    32ead040f9bdf2a7b66f746e4763a06c
+        32 f9 b6 47
+        ea bd 6f 63
+        d0 f2 74 a0
+        40 a7 6e 6c
+round[ 5].s_box    23877009997a895c4ea8929fa0fbe050
+round[ 5].s_row    237a925099a8e0094efb705ca087899f
+round[ 5].m_col    0a2a962d23e0f1eaa66fb1e1dfaa94d0
+round[ 5].k_sch    7f2e2b88f8443e098dda7cbbf34b9290
+round[ 5].output   7504bda5dba4cfe32bb5cd5a2ce10640
+        75 db 2b 2c
+        04 a4 b5 e1
+        bd cf cd 06
+        a5 e3 5a 40
+round[ 6].start    7504bda5dba4cfe32bb5cd5a2ce10640
+        75 db 2b 2c
+        04 a4 b5 e1
+        bd cf cd 06
+        a5 e3 5a 40
+round[ 6].s_box    9df27a06b9498a11f1d5bdbe71f86f09
+round[ 6].s_row    9d49bd09b9d56f06f1f87a1171f28abe
+round[ 6].m_col    4edaae5a64bfb8668185cea8dbb5558c
+round[ 6].k_sch    ec614b851425758c99ff09376ab49ba7
+round[ 6].output   a2bbe5df709acdea187ac79fb101ce2b
+        a2 70 18 b1
+        bb 9a 7a 01
+        e5 cd c7 ce
+        df ea 9f 2b
+round[ 7].start    a2bbe5df709acdea187ac79fb101ce2b
+        a2 70 18 b1
+        bb 9a 7a 01
+        e5 cd c7 ce
+        df ea 9f 2b
+round[ 7].s_box    3aead99e51b8bd87addac6dbc87c8bf1
+round[ 7].s_row    3ab8c6f151da8b9ead7cd987c8eabddb
+round[ 7].m_col    90f11dc9c2e63f859ba2ea5cc80035b9
+round[ 7].k_sch    217517873550620bacaf6b3cc61bf09b
+round[ 7].output   b1840a4ef7b65d8e370d81600e1bc522
+        b1 f7 37 0e
+        84 b6 0d 1b
+        0a 5d 81 c5
+        4e 8e 60 22
+round[ 8].start    b1840a4ef7b65d8e370d81600e1bc522
+        b1 f7 37 0e
+        84 b6 0d 1b
+        0a 5d 81 c5
+        4e 8e 60 22
+round[ 8].s_box    c85f672f684e4c199ad70cd0abafa693
+round[ 8].s_row    c84e0c9368d7a62f9aaf6719ab5f4cd0
+round[ 8].m_col    c6d3303c3b039997bb6fd04f3011074e
+round[ 8].k_sch    0ef903333ba9613897060a04511dfa9f
+round[ 8].output   c82a330f00aaf8af2c69da4b610cfdd1
+        c8 00 2c 61
+        2a aa 69 0c
+        33 f8 da fd
+        0f af 4b d1
+round[ 9].start    c82a330f00aaf8af2c69da4b610cfdd1
+        c8 00 2c 61
+        2a aa 69 0c
+        33 f8 da fd
+        0f af 4b d1
+round[ 9].s_box    e8e5c37663ac417971f957b3effe543e
+round[ 9].s_row    e8ac573e63f9547671fec379efe541b3
+round[ 9].m_col    4d6ca8a4f400a8e441b1995c034e46f3
+round[ 9].k_sch    b1d4d8e28a7db9da1d7bb3de4c664941
+round[ 9].output   fcb870467e7d113e5cca2a824f280fb2
+        fc 7e 5c 4f
+        b8 7d ca 28
+        70 11 2a 0f
+        46 3e 82 b2
+round[10].start    fcb870467e7d113e5cca2a824f280fb2
+        fc 7e 5c 4f
+        b8 7d ca 28
+        70 11 2a 0f
+        46 3e 82 b2
+round[10].s_box    b06c515af3ff82b24a74e51384347637
+round[10].s_row    b0ffe537f374765a4a3451b2846c8213
+round[10].k_sch    b4ef5bcb3e92e21123e951cf6f8f188e
+round[10].output   0410befccde6944b69dd007debe39a9d
+        04 cd 69 eb
+        10 e6 dd e3
+        be 94 00 9a
+        fc 4b 7d 9d
